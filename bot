@@ -71,8 +71,7 @@ def send_text(message):
             third_button = types.InlineKeyboardButton(text='Bybit [ХАРД]', url='https://t.me/joinchat/AAAAAE4EQTuyvobPndfb6w')
             four_button = types.InlineKeyboardButton(text='999dice [универсальный бот]', url='https://t.me/joinchat/AAAAAExOzBF4YxQSPSuGHw')
             markup.add( second_button,third_button, four_button , max_button)
-            bot.send_message(message.chat.id, "Горячееecho "# bot" >> README.md
-            ", reply_markup=markup)
+            bot.send_message(message.chat.id, "Горячее", reply_markup=markup)
         switch(message)
     elif message.text == 'Холодные [New]':
         def switch(message):
